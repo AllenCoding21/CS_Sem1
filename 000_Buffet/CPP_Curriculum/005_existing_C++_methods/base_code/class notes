@@ -1,0 +1,12 @@
+// base code file
+#include "./hfiles/poole.h"
+
+///////////////////////////////////////////////////////////////////////
+
+main(){
+	srand(time(NULL));
+	gotoxy(3,5);
+	cout << '@';
+	gotoxy(17,5);
+	cout << 'R';
+}
